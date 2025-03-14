@@ -13,7 +13,7 @@ import java.util.List;
 public class Database {
     String url = "jdbc:mysql://localhost:3306/productdb";
     String user = "root";
-    String password = "Bip1992lob.@";
+    String password = "todo";
 
 
     protected Connection getConnection() throws SQLException {
