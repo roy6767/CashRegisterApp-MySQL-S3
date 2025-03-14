@@ -74,7 +74,7 @@ public class CashRegisterForm {
                     String formattedDateTime = formatter.format(dTime);
                     if(receiptArea.getText().isEmpty()){
                         receiptId= database.getReceiptId()+1;
-                        receiptArea.append("                     STEFANS SUPERSHOP\n");
+                        receiptArea.append("                     DAILY SUPERSHOP\n");
                         receiptArea.append("----------------------------------------------------\n");
                         receiptArea.append("\n");
                         receiptArea.append("Kvittonummer:"+receiptId+"         "+"Datum:"+formattedDateTime+"\n");
